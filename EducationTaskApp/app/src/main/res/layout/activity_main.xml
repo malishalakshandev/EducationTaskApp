@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    header-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:background="@color/primary_ash">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Home_title"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/primary_black"
+                android:gravity="center">
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--    body-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/Home_btn_create_new_task"
+                android:textSize="20sp"
+                android:textColor="@color/primary_white"
+                android:fontFamily="@font/poppins_regular"
+                android:backgroundTint="@color/primary_yellow"
+                android:onClick="toCreateTask">
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/Home_pending_task"
+                android:textSize="20sp"
+                android:textColor="@color/primary_white"
+                android:fontFamily="@font/poppins_regular"
+                android:backgroundTint="@color/primary_yellow"
+                android:onClick="toPendingTasks">
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/Home_completed_tasks"
+                android:textSize="20sp"
+                android:textColor="@color/primary_white"
+                android:fontFamily="@font/poppins_regular"
+                android:backgroundTint="@color/primary_yellow"
+                android:onClick="toCompletedTasks">
+            </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

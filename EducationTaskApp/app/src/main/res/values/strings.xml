@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">EducationTaskApp</string>
+
+    <!--    Home-->
+    <string name="Home_title">Education Task App</string>
+    <string name="Home_btn_create_new_task">CREATE NEW TASK</string>
+    <string name="Home_pending_task">PENDING TASKS</string>
+    <string name="Home_completed_tasks">COMPLETED TASKS</string>
+
+    <!--    Create task-->
+    <string name="CreateTask_title">Create Task</string>
+    <string name="CreateTask_hint_task_name">Task name</string>
+    <string name="CreateTask_hint_deadline_date">Deadline (2021-01-01)</string>
+    <string name="CreateTask_btn_save">SAVE</string>
+
+    <!--    Pending Tasks-->
+    <string name="PendingTasks_title">Pending Tasks</string>
+    <string name="PendingTasks_deadline">Deadline</string>
+    <string name="PendingTasks_remain_days">Remain Days</string>
+    <string name="PendingTasks_create_new_task">CREATE NEW TASK</string>
+
+
+    <!--    Completed Tasks-->
+    <string name="CompletedTasks_title">Completed Tasks</string>
+    <string name="CompletedTasks_deadline">Deadline</string>
+    <string name="CompletedTasks_completed_on">Completed On</string>
+    <string name="CompletedTasks_create_new_task">CREATE NEW TASK</string>
+
+</resources>

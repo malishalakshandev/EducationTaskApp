@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    header-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:background="@color/primary_ash">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/CreateTask_title"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/primary_black"
+                android:gravity="center">
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--    body-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/ET_task_name"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="@string/CreateTask_hint_task_name"
+            android:fontFamily="@font/poppins_regular"
+            android:background="@drawable/bg_blackborder_rectangle"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="5dp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/ET_deadline_date"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="@string/CreateTask_hint_deadline_date"
+            android:fontFamily="@font/poppins_regular"
+            android:background="@drawable/bg_blackborder_rectangle"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="5dp">
+        </EditText>
+
+    </LinearLayout>
+
+    <!--    footer-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/CreateTask_btn_save"
+            android:textSize="14sp"
+            android:backgroundTint="@color/primary_yellow"
+            android:onClick="saveTask">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

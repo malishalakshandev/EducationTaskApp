@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/Desktop/IndustrialMasterME/EducationTaskApp/app/src/main/res/drawable/bg_black_bottom_border.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/User/Desktop/IndustrialMasterME/EducationTaskApp/app/src/main/res/drawable/bg_black_right_border_rectangle.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/User/Desktop/IndustrialMasterME/EducationTaskApp/app/src/main/res/drawable/bg_blackborder_rectangle.xml" value="0.1" />
+        <entry key="..\:/Users/User/Desktop/IndustrialMasterME/EducationTaskApp/app/src/main/res/layout/activity_completed_tasks.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/Desktop/IndustrialMasterME/EducationTaskApp/app/src/main/res/layout/activity_create_task.xml" value="0.16" />
+        <entry key="..\:/Users/User/Desktop/IndustrialMasterME/EducationTaskApp/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/User/Desktop/IndustrialMasterME/EducationTaskApp/app/src/main/res/layout/activity_pending_tasks.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/Desktop/IndustrialMasterME/EducationTaskApp/app/src/main/res/layout/completed_one_task.xml" value="0.22" />
+        <entry key="..\:/Users/User/Desktop/IndustrialMasterME/EducationTaskApp/app/src/main/res/layout/one_task.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/IndustrialMasterME/EducationTaskApp/app/src/main/res/layout/pending_one_task.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
